@@ -130,15 +130,16 @@
   z-index: 99;
 }
 
-.notfound_text {
+.count-down {
   background-color: black;
-  padding-left: 0.3em;
-  padding-right: 0.3em;
-  font-size: 0.75em;
+
+  font-size: 1.75em;
   color: white;
   letter-spacing: 0;
   border-radius: 5px;
   z-index: 10;
+  height: 2 em;
+  width: 2 em;
 }
 
 .tv {
@@ -469,4 +470,26 @@
 
 .text_4043 {
   transform: scaleY(24.5) scaleX(9);
+}
+
+/* ... */
+
+button {
+  position: relative;
+  top: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10em;
+  height: 2em;
+  border: none;
+  border-radius: 10px;
+  background-color: #e69635;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d36604;
 }
